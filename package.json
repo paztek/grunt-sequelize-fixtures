@@ -1,0 +1,45 @@
+{
+    "name": "grunt-sequelize-fixtures",
+    "description": "Grunt task for loading some JSON fixtures with Sequelize",
+    "version": "0.1.0",
+    "homepage": "https://github.com/paztek/grunt-sequelize-fixtures",
+    "author": {
+        "name": "Matthieu Balmes",
+        "email": "matthieu.balmes@gmail.com",
+        "url": "http://paztek.github.io"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/paztek/grunt-sequelize-fixtures.git"
+    },
+    "bugs": {
+        "url": "https://github.com/paztek/grunt-sequelize-fixtures/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/paztek/grunt-sequelize-fixtures/blob/master/LICENSE-MIT"
+        }
+    ],
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "scripts": {
+        "test": "grunt test"
+    },
+    "dependencies": {
+        "sequelize-fixtures": "^0.3.1"
+    },
+    "devDependencies": {
+        "grunt-contrib-jshint": "^0.9.2",
+        "grunt-contrib-clean": "^0.5.0",
+        "grunt-contrib-nodeunit": "^0.3.3",
+        "grunt": "~0.4.5"
+    },
+    "peerDependencies": {
+        "grunt": "~0.4.5"
+    },
+    "keywords": [
+        "gruntplugin"
+    ]
+}
